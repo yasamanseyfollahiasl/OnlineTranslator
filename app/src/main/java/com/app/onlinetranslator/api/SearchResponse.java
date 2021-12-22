@@ -1,4 +1,4 @@
-package com.app.onlinetranslator.retrofit;
+package com.app.onlinetranslator.api;
 
 import com.google.gson.annotations.SerializedName;
 

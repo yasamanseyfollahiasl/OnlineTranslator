@@ -1,4 +1,4 @@
-package com.app.onlinetranslator.retrofit;
+package com.app.onlinetranslator.api;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

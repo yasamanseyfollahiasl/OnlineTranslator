@@ -1,4 +1,4 @@
-package com.app.onlinetranslator.retrofit;
+package com.app.onlinetranslator.api;
 
 
 import retrofit2.Call;
@@ -12,6 +12,12 @@ public interface ApiInterface {
             @Query("token") String token,
             @Query("q") String q,
             @Query("type") String type
+    );
+
+    @GET("suggest")
+    Call<SuggestResponse> suggest(
+            @Query("token") String token,
+            @Query("q") String q
     );
 }
 
